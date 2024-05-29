@@ -22,10 +22,10 @@
   - Safety - extent to which system can operate without causing damage or danger to its environment
   - Confidentiality - don't disclose undue information to unauthorised entities
   - Integrity - capacity of a system to ensure absence of improper alterations with regard to the modification or deletion of information
-  - Maintanability - a function of time representing the probability that a failed computer system will be repaird in $t$ time or less
+  - Maintainability - a function of time representing the probability that a failed computer system will be repaird in $t$ time or less
 - Some system properties are directly related to dependability:
   - Repairability - how easy is the system to fix when it breaks?
-  - Future maintanability - is it economical to add new requirements and keep system relevant?
+  - Future maintainability - is it economical to add new requirements and keep system relevant?
   - Error tolerance - system must be able to avoid errors when the user inputs data
 - A fault is the cause of an error
 - An error is the manifestation of a fault
@@ -108,7 +108,7 @@
   - Timing errors
   - Guidelines for component testing:
     - Check extremes of ranges
-    - Test interface culls with null pointers
+    - Test interface calls with null pointers
     - Design tests that cause failure and see how failure handled
     - Stress test
     - Vary order order in which memory is accessed

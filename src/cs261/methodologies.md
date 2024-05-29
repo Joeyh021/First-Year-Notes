@@ -106,7 +106,7 @@
 ## Requirements Analysis
 
 - Requirements are descriptions of what the system should and should not do, the service it provides, and the constraints on its operation
-- Enable developers to make software that wil correctly fulfil customers needs
+- Enable developers to make software that will correctly fulfil customers needs
 - Provides a basis for tests, validation and verification
 - Enable (semi-)cost accurate specification
 - Important to distinguish what is built from how it is built
