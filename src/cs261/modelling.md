@@ -2,7 +2,7 @@
 
 - UML was developed in the 90s as a general purpose modelling language, providing a formal scheme for describing system models.
   - Static/structural view of system (objects and their attributes)
-  - Dynamic/behavioural view - dynamic behaviour of system (collaboration betwen objects and changing state)
+  - Dynamic/behavioural view - dynamic behaviour of system (collaboration between objects and changing state)
 - Different perspectives for system modelling include:
   - External - the context of the system
   - Interaction
@@ -44,7 +44,7 @@
     - `#` - protected
     - `~` - package private
     - `/` - derived
-    - Static attributes/methos should be underlined
+    - Static attributes/methods should be underlined
   - Comments can be associated with classes, use a folded note notation
   - Class inheritance hierarchies, drawn top down with arrows pointing to parent
     - Solid line with black arrow for class
@@ -102,7 +102,7 @@
     - Security
     - Safety
     - Availability
-    - Maintanability
+    - Maintainability
   - First need to break system down into subsystems
   - Box/arrow diagrams show general interactions
     - Arrows show direction of data/control

@@ -82,7 +82,7 @@
   - Can hide away parts of the service object so it can be changed or controlled
   - Allows to manage object life cycle
   - Provides availability if service object isn't ready or available
-  - New proxies cna be added without changing services or clients
+  - New proxies can be added without changing services or clients
   - More classes so more complexity
   - Adds another step so may result is slowdown
 - Decorator pattern
@@ -136,11 +136,11 @@
   - Save and restore objects without revealing details of implementation
   - Make an object responsible for saving its own internal state
   - Can be used to implement undo functionality for restoring state
-  - Snapshot implements a limited interface so it can be stored externally (in a caretake object) without exposing internal details
+  - Snapshot implements a limited interface so it can be stored externally (in a caretaker object) without exposing internal details
   - Snapshot/memento stores the internal data of object and pointer to original object
   - Caretaker handles restore
   - Can make backups without violating encapsulation
-  - Extract out maintenance and resoration, keep original object interface simple
+  - Extract out maintenance and restoration, keep original object interface simple
   - Heavy memory cost
   - Need caretakers to track original object life cycles to erase unneeded mementos
 - Strategy pattern
@@ -154,7 +154,7 @@
   - Separate details of algorithm from code that uses it
   - Composition replaces inheritance
   - If only a few choices, no need to increase complexity
-  - Requires clinets to understand key differences between strategies to select appropriate one
+  - Requires clients to understand key differences between strategies to select appropriate one
 
 ## Architectural Patterns
 
@@ -169,7 +169,7 @@
   - Layers depend on all layers below, can have reliability implications
   - Useful when
     - Building on top of existing systems
-    - When development is spread accross teams
+    - When development is spread across teams
     - When need to add security at each layer
 - Repository architecture has a central repository storing all data in the system
   - Concerned with data sharing rather than structure
